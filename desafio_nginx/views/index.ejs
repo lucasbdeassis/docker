@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <h1><%= message %></h1>
+    <ul>
+      <% for(let i=0; i<persons.length; i++) { %>
+        <li><%= persons[i].name %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
